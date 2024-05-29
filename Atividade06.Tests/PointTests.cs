@@ -23,7 +23,7 @@ namespace Atividade06.Tests
         public void DistanceTo_returns_correct_distance_whith_no_exactly_result()
         {
             var point = new Point(1, 1);
-            double result = Math.Round(point.DistanceTo(new Point(5,5)),5);
+            double result = Math.Round(point.DistanceTo(new Point(5,5)),5); //Result formated to 5 decimal places
             Assert.Equal(5.65685, result);
         }
     }
