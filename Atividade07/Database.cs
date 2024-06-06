@@ -8,9 +8,10 @@ namespace Atividade07
 {
     public class Database : IDatabase
     {
+        public List<User>? users {get;}
         public void SaveUser(User user)
         {
-            // Salvar usuário no banco de dados
+            users!.Add(user);
         }
     }
 }
