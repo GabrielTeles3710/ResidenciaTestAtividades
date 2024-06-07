@@ -11,7 +11,7 @@ namespace Atividade09
         private readonly List<Item> _items;
 
         public ItemCollection()
-        {
+        {   
             _items = new List<Item>();
         }
 
